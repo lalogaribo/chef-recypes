@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7195373-9045-49a6-849a-5a4227d16023" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/chef.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/models/recipe.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/models/chef_test.rb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test/integration/pages_test.rb" afterPath="$PROJECT_DIR$/test/integration/pages_test.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/chef.rb" afterPath="$PROJECT_DIR$/app/models/chef.rb" />
+      <change beforePath="$PROJECT_DIR$/app/models/recipe.rb" afterPath="$PROJECT_DIR$/app/models/recipe.rb" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change beforePath="$PROJECT_DIR$/test/models/recipe_test.rb" afterPath="$PROJECT_DIR$/test/models/recipe_test.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,20 +32,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="recipe.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="recipe.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="92">
+              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chef_test.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recipe_test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/models/recipe_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chef_test.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/models/chef_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
+            <state relative-caret-position="1265">
               <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
@@ -55,8 +65,8 @@
       <file leaf-file-name="chef.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/chef.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            <state relative-caret-position="161">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -87,10 +97,11 @@
         <option value="$PROJECT_DIR$/db/migrate/20180214030325_create_chefs.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180214140254_change_column_in_recipes.rb" />
         <option value="$PROJECT_DIR$/test/integration/pages_test.rb" />
+        <option value="$PROJECT_DIR$/test/models/chef_test.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180214145413_add_chef_id_to_recipes.rb" />
+        <option value="$PROJECT_DIR$/app/models/chef.rb" />
         <option value="$PROJECT_DIR$/test/models/recipe_test.rb" />
         <option value="$PROJECT_DIR$/app/models/recipe.rb" />
-        <option value="$PROJECT_DIR$/test/models/chef_test.rb" />
-        <option value="$PROJECT_DIR$/app/models/chef.rb" />
       </list>
     </option>
   </component>
@@ -154,6 +165,17 @@
               <item name="chef-recypes" type="b2602c69:ProjectViewProjectNode" />
               <item name="chef-recypes" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chef-recypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chef-recypes" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chef-recypes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chef-recypes" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chef-recypes" type="b2602c69:ProjectViewProjectNode" />
@@ -497,12 +519,12 @@
       <workItem from="1505682484496" duration="1837000" />
       <workItem from="1517159664959" duration="2491000" />
       <workItem from="1517864018079" duration="1685000" />
-      <workItem from="1518576786135" duration="4266000" />
+      <workItem from="1518576786135" duration="5578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12709000" />
+    <option name="totallyTimeSpent" value="14021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -515,6 +537,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2312" y="0" width="1048" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20477137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49697885" order="6" side_tool="false" content_ui="tabs" />
@@ -524,7 +547,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15784314" sideWeight="0.69119877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15784314" sideWeight="0.69119877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -867,34 +890,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/recipe_test.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180214145413_add_chef_id_to_recipes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="46">
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/chef.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="161">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/models/chef_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
+        <state relative-caret-position="1265">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/recipe_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/recipe.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>
