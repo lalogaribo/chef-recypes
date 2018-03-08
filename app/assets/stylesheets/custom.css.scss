@@ -52,3 +52,10 @@ $navbar-default-bg: rgb(223, 172, 172);
 h2 > panel-title {
   margin-top: 1px;
 }
+
+.recipe-actions {
+  padding-top: 5px;
+  a {
+    color: #fff;
+  }
+}
