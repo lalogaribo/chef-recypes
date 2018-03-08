@@ -21,11 +21,11 @@ class RecipesEditTest < ActionDispatch::IntegrationTest
       assert_template 'recipes/edit'
       name = 'taquitos de asada'
       description = 'carne de res'
-      patch recipe_path(@recipe), params: { recipe: { name: name, description: description}}
+      patch recipe_path(@recipe), params: { recipe: { name: name, description: description }}
       assert_redirected_to @recipe
       assert_not flash.empty?
       @recipe.reload
       assert_match name, @recipe.name
-      assert_match description, @recipe.description1
+      assert_match description, @recipe.description
   end
 end
