@@ -1,4 +1,9 @@
 class ChefsController < ApplicationController
+
+  def index
+    @chefs = Chef.all
+  end
+
   def new
     @chef = Chef.new
   end
@@ -13,6 +18,7 @@ class ChefsController < ApplicationController
 
     end
   end
+
   def show
     @chef = Chef.find(params[:id])
   end
@@ -32,7 +38,7 @@ class ChefsController < ApplicationController
   end
 
   private
-    def chef_params
-      params.require(:chef).permit(:chefname, :email, :password, :password_confirmation)
-    end
+  def chef_params
+    params.require(:chef).permit(:chefname, :email, :password, :password_confirmation)
+  end
 end
