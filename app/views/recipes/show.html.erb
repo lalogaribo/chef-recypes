@@ -16,11 +16,13 @@
       <div class="pull-right"> <%= time_ago_in_words(@recipe.created_at) %> ago</div>
     </p>
     </div>
+  <% if logged_in? && current_chef == @recipe.chef %>
     <div class="recipe-actions">
       <%= link_to 'edit recipe', edit_recipe_path(@recipe), class: 'btn btn-xs btn-warning' %>
       <%= link_to 'delete recipe',recipe_path(@recipe), method: :delete,
                       data: {confirm: 'Are you sure you want to delete this recipe?'},
                       class: 'btn btn-xs btn-danger'%>
+      <% end %>
       <%= link_to 'return to recipes listing', recipes_path, class: 'btn btn-xs btn-primary'%>
     </div>
 </div>

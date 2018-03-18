@@ -27,6 +27,7 @@ class RecipesTest < ActionDispatch::IntegrationTest
     assert_match @chef.chefname, response.body
   end
   test 'create new valid recipe' do
+    sign_is_as(@chef, 'password')
     get new_recipe_path
     assert_template 'recipes/new'
     name_of_recipe = 'chicken saute'
